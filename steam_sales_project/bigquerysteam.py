@@ -14,7 +14,7 @@ project_id = 'projetosql-423912'
 dataset_id = '1'
 table_id = 'data_steam'
 
-df = pd.read_csv('steam_game_info.csv')
+df = pd.read_csv('steam_game_sales.csv')
 
 job = client.load_table_from_dataframe(df, f'{project_id}.{dataset_id}.{table_id}')
 

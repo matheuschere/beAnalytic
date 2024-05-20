@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-url = 'https://store.steampowered.com/app/1150530/'
+url = 'https://store.steampowered.com/app/1672970/'
 
 try:
     response = requests.get(url)
